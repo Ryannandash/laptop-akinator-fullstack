@@ -4,13 +4,6 @@
 1. `laptop-akinator-backend.zip` 
 2. `laptop-akinator-frontend-updated.zip` 
 
-## Yang berubah dari basis pengetahuan
-Backend pakai tabel keputusan 40 gejala (G01–G40) x 10 kerusakan (K01–K10) dari file
-`fokus_pada_tabel_keputusan.xlsx` yang kamu kirim (bukan 26 gejala/14 kerusakan yang lama
-di `knowledgeBase.js`), karena itu tabel yang sudah ada bobot CF-nya. File lokal lama
-(`src/data/knowledgeBase.js`, `src/engine/forwardChaining.js`) sudah tidak dipakai lagi
-tapi tetap saya biarkan di folder kalau mau dibandingkan.
-
 ## Cara kerja akurasi (Certainty Factor)
 - Tiap jawaban (Ya/Mungkin Ya/Tidak Tahu/Mungkin Tidak/Tidak) → CF_user (1, 0.6, 0.2, -0.4, -1).
 - Tiap gejala punya bobot pakar (CF_pakar) ke tiap kerusakan, dari tabel Excel kamu.
