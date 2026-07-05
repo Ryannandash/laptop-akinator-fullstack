@@ -1,8 +1,8 @@
 # Laptop Akinator — Backend + Update Frontend
 
 ## Isi paket
-1. `laptop-akinator-backend.zip` — API FastAPI (Forward Chaining + Certainty Factor), siap deploy ke Vercel.
-2. `laptop-akinator-frontend-updated.zip` — source frontend kamu yang sudah disambungkan ke backend + tampilan akurasi diagnosis.
+1. `laptop-akinator-backend.zip` 
+2. `laptop-akinator-frontend-updated.zip` 
 
 ## Yang berubah dari basis pengetahuan
 Backend pakai tabel keputusan 40 gejala (G01–G40) x 10 kerusakan (K01–K10) dari file
